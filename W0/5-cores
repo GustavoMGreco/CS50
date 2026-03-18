@@ -1,0 +1,11 @@
+da mesma forma que os caracteres, as cores são representadas por números.
+
+as três cores vermelho, verde e azul (RGB) possuem sua intensidade/quantitade representada por um número que vai de 0 a 255
+A combinação dos valores dessas três cores gera uma cor no computador.
+
+ R          G          B
+ 72         73         33
+
+Concluindo, 0 e 1 são a base de tudo: números, caracteres, emojis, cores, imagens, vídeos...
+
+Então, como o computador sabe como ele deve representar esses 0 e 1?

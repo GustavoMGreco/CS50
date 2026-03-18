@@ -1,0 +1,14 @@
+o computador só tem acesso à energia (0 e 1), como ele consegue mostrar uma letra?
+
+uma letra (ou caractere) é formada por 8 bits (1 byte).
+
+   128*          64*          32*          16*          8*          4*          2*          1*
+A = 0             1            0            0           0           0           0           1      = 65
+B = 0             1            0            0           0           0           1           0      = 66
+C = 0             1            0            0           0           0           1           1      = 67
+...
+a = 0             1            1            0           0           0           0           1      = 97
+('a' está 32 bits de distância de 'A')
+
+
+Quando eu recebo um email estou vendo vários 0 e 1 formando caracteres.

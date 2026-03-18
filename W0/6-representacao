@@ -1,0 +1,6 @@
+Quando abrimos um executável no computador, o arquivo deve dizer à máquina como ela deve interpretar aqueles 0 e 1.
+
+O software sabe que quando abrimos um .gif ou .jpeg ele deve representar aqueles 0 e 1 como cores.
+Ele sabe que em um .docx ou .txt deve representar os 0 e 1 como caracteres.
+
+Um vídeo é apenas uma sequência de imagens sendo passadas por segundo, dando a impressão de movimento

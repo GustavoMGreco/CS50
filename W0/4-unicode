@@ -1,0 +1,3 @@
+sucessor do ACSII, usa uma quantidade muito maior de bits, possibilitando a máquina apresentar linguagens asiáticas, emojis...
+
+ACSII utiliza apenas 8 bits por caractere, ou seja, 256 possibilidades. Unicode usa 16, 24 ou até 32 bits por caractere.
