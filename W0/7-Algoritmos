@@ -25,3 +25,8 @@ Computação não é sobre escrever o código correto ou resolver o problema, ma
 Com a terceira solução, se a lista dobrasse de tamanho para 2000 páginas, o algoritmo precisaria de apenas um passo a mais para resolver o problema.
 
 'Codar' nada mais é do que uma implementação em uma linguagem que o computador entende de um algoritmo.
+
+
+Sinais de que um código está mal escrito:
+    -Você repetiu um bloco/linha de código várias vezes (DRY)
+    -Para fazer uma simples alteração, você precisa mexer em várias partes do código
