@@ -1,0 +1,27 @@
+Algoritmos são instruções passo a passo utilizadas para resolver algum problema.
+Isso é ciência da computação: não apenas representar informação, mas de alguma forma processá-la e usá-la para resolver um problema.
+
+Eu tenho uma lista telefônica com 1000 páginas e preciso encontrar o contato específico de Tavão nessa lista.
+
+Abordagens:
+1- Olhar página por página até encontrar a correta onde está o contato. (n)
+    -Não estaria errado, isso também seria um tipo de algoritmo, pois resolve o problema e encontra o contato.
+    -É extremamente lento, soluções melhores podem ser encontradas.
+
+2- Olhar uma a cada duas páginas. (n/2)
+    -É duas vezes mais rápido que a solução anterior. No caso do contato estar na última página, levariam 500 passos em vez de 1000.
+    -Não é um algoritmo correto, existe 50% de chance da página correta com o contato ser pulada.
+    -Eu poderia apenas voltar uma página caso a correta fosse pulada, o que apenas adicionaria um passo a mais, mas isso ainda seria um bug/erro no algoritmo se não fosse resolvido inteligentemente.
+
+3- Ir para o meio da lista e descartar a metade que não contém o contato, repetir até sobrar apenas uma página. (log₂ n)
+    -Esse é o algoritmo correto para o problema (é isso que os celulares fazem em listas de contatos).
+    -O número de passos é substancialmente menor se comparado aos algoritmos anteriores.
+
+
+As três abordagens são algoritmos e são capazes de resolver o problema, mas diferem fundalmentalmente na sua eficiência e qualidade de design.
+
+Computação não é sobre escrever o código correto ou resolver o problema, mas fazer isso da maneira mais rápida, limpa e eficiente possível, é usar a menor quantidade de CPU, recursos computacionais, RAM, pessoas ou dinheiro.
+
+Com a terceira solução, se a lista dobrasse de tamanho para 2000 páginas, o algoritmo precisaria de apenas um passo a mais para resolver o problema.
+
+'Codar' nada mais é do que uma implementação em uma linguagem que o computador entende de um algoritmo.
