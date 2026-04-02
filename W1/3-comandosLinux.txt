@@ -1,0 +1,17 @@
+cd (change directory) -> muda de diretório
+
+cp (copy) -> copia arquivos ou diretórios
+
+mkdir (make directory) -> cria um novo diretório
+
+mv (move) -> move ou renomeia arquivos e diretórios
+
+ls (list) -> lista os arquivos e diretórios
+
+touch (touch) -> cria um arquivo vazio rapidamente
+
+pwd (print working directory) -> mostra o caminho completo de onde estiver no momento
+
+rm (remove) -> apaga arquivos (pode apagar diretórios com conteúdo usando a flag -r)
+
+rmdir (remove directory) -> apaga somente diretórios vazios
